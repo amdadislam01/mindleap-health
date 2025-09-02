@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+@import "tailwindcss";
+*{
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+@theme{
+    --color-heroBg: #0e1122;
+    --color-para: 'rgb(0 0 0 / 80%)';
+    --color-primary: #06a055;
+}
+
+.isActive{
+  color: #06a055 !important;
+}
+
+.react-tabs {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.react-tabs__tab-list {
+  border-bottom: 1px solid #06a055;
+  margin: 0 0 10px;
+  padding: 0;
+}
+
+.react-tabs__tab {
+  background: white;
+  display: inline-block;
+  position: relative;
+  list-style: none;
+  padding: 14px 24px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-bottom: none;
+}
+
+.react-tabs__tab--selected {
+  background: #fff;
+  border: 1px solid #06a055 !important;
+  color: black;
+  border-radius: 5px;
+  outline: none;
+  border-bottom: none;
+}
+
+.react-tabs__tab-panel {
+  display: none;
+}
+
+.react-tabs__tab-panel--selected {
+  display: block;
+}
