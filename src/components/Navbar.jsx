@@ -118,7 +118,12 @@ const Navbar = () => {
         </div>
         {/* button */}
         <div className="hidden md:block">
-            <a href="#contact" className='text-white bg-primary hover:bg-primary/90 px-4 py-2 rounded'>
+            <a
+            onClick={e => {
+                e.preventDefault();
+                handleScrollTo('contact')
+            }} 
+            href="#contact" className='text-white bg-primary hover:bg-primary/90 px-4 py-2 rounded'>
                 Contact Us
             </a>
         </div>
@@ -141,6 +146,7 @@ const Navbar = () => {
                     className='text-white bg-primary hover:bg-primary/90 px-4 py-2 rounded'
                     onClick={(e) => {e.preventDefault();
                         handelCloseMenu();
+                        handleScrollTo('contact')
                     }
                 }
                     >Contact Us</a>
