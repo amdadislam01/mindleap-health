@@ -1,6 +1,5 @@
 import React from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
-import "react-tabs/style/react-tabs.css";
 import serviceImg1 from "../assets/service1.webp";
 import serviceImg2 from "../assets/service2.webp";
 import serviceImg3 from "../assets/service3.webp";
