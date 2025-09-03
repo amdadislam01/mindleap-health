@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import thumnailImg from "../assets/video-thumbnail.webp";
 import { IoPlay } from "react-icons/io5";
 import { FaArrowCircleRight } from "react-icons/fa";
+import { motion } from "framer-motion";
+import { fadeIn } from "../utilis/animationVariants";
 
 const About = () => {
   const [isVideoPlay, setIsVideoPlay] = useState(false);
@@ -15,7 +17,12 @@ const About = () => {
   };
   return (
     <div id="about" className="bg-[#f7f8fc] pb-16 pt-20">
-      <div className="container mx-auto">
+      <motion.div
+        variants={fadeIn("down", 0.2)}
+        initial="hidden"
+        whileInView={"show"}
+        className="container mx-auto"
+      >
         <div className="py-12 px-4 md:w-4/5 mx-auto flex flex-col md:flex-row items-center gap-8 ">
           {/* Left Side */}
           <div className="md:w-1/2 w-full mb-8 md:mb-0">
@@ -38,7 +45,7 @@ const About = () => {
           {/* Right Side */}
           <div className="md:w-1/2 w-full">
             <h1 className="text-3xl capitalize font-secondary font-bold mb-4 leading-snug">
-             Individual consult and therapy
+              Individual consult and therapy
             </h1>
             <p className="text-lg mb-12 md:pr-8">
               We lower out stress levels, we get to know our pain, we connect
@@ -77,7 +84,7 @@ const About = () => {
             </div>
           </div>
         )}
-      </div>
+      </motion.div>
     </div>
   );
 };
