@@ -7,7 +7,7 @@ import { fadeIn } from '../utilis/animationVariants'
 const Hero = () => {
   return (
     <section id='home' className=' bg-heroBg text-white flex items-center pt-28 md:h-screen'>
-      <div className="container mx-auto flex flex-col md:flex-row items-center justify-between p-8 overflow-y-hidden gap-12 h-full">
+      <div className="container mx-auto flex flex-col md:flex-row items-center justify-between p-8 overflow-hidden gap-12 h-full">
         {/* left side */}
         <motion.div
         variants={fadeIn('down', 0.2)}
