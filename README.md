@@ -134,16 +134,9 @@ Deploy the generated `dist/` folder using **Vercel**, **Netlify**, or any static
 
 ---
 
-## 📝 License
-
-This project is licensed under the **MIT License**.
-
----
-
 ## 📞 Contact
 
 * GitHub: [amdadislam01](https://github.com/amdadislam01)
-* Fiverr: [MD. Amdad Islam](https://www.fiverr.com/s/qD92W7Z)
 * Email: `your-email@example.com` *(replace with your actual email)*
 
 ---
