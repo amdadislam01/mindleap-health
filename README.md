@@ -137,8 +137,7 @@ Deploy the generated `dist/` folder using **Vercel**, **Netlify**, or any static
 ## 📞 Contact
 
 * GitHub: [amdadislam01](https://github.com/amdadislam01)
-* Email: `amdad20063#gmail.com` *(replace with your actual email)*
-
+* Email: `amdad20063#gmail.com` 
 ---
 
 *Prepared with ❤️ by MD. Amdad Islam*
