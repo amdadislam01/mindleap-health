@@ -1,8 +1,7 @@
 # MindLeap Health
 
 > **Project:** MindLeap Health (Frontend)
-> **Author:** MD. Amdad Islam
-> **Repository:** [https://github.com/amdadislam01/mindleap-health](https://github.com/amdadislam01/mindleap-health)
+> </br>
 > **Live Demo:** [https://mindleap-health.vercel.app](https://mindleap-health.vercel.app) (if deployed)
 
 ---
