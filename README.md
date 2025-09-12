@@ -2,8 +2,7 @@
 
 > **Project:** MindLeap Health (Frontend)
 > </br>
-> **Live Demo:** [https://mindleap-health.vercel.app](https://mindleap-health.vercel.app) (if deployed)
-
+> **Live Demo:** [https://mindleap-health.vercel.app](https://mindleap-health.vercel.app) 
 ---
 
 ## ⚡ Overview
