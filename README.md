@@ -1,4 +1,4 @@
-# MindLeap Health
+# MindLeap Healt
 
 > **Project:** MindLeap Health (Frontend)
 > </br>
